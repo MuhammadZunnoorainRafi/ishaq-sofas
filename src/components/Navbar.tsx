@@ -2,11 +2,11 @@ import sofaSvg from '../../public/vite.svg';
 function Navbar() {
   return (
     <div>
-      <nav className="bg-gradient-to-r from-blue-500 to-purple-500 py-4 px-6 fixed w-full z-10 shadow-md">
+      <nav className="bg-white/50 backdrop-blur-md py-3 sm:py-4 fixed w-full z-10 shadow-md">
         <div className="container mx-auto flex justify-center items-center">
           <a
             href="#"
-            className="text-white font-bold text-xl flex items-center gap-2"
+            className="text-slate-800 font-bold text-xl flex items-center gap-2"
           >
             <img src={sofaSvg} alt="logo sofa error" className="h-10 w-10" />
             ISHAQ SOFAS
